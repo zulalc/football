@@ -9,7 +9,7 @@ export default function Navbar({ toggleSidebar }: NavbarProps) {
       <nav className="container mx-auto flex items-center justify-between py-4 px-6">
         <div className="flex items-center space-x-2">
           <button
-            className="text-2xl text-white focus:outline-none mr-3 md:hidden"
+            className="text-3xl text-white focus:outline-none mr-3 md:hidden"
             onClick={toggleSidebar}
           >
             ☰
