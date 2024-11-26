@@ -12,6 +12,7 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
         darkgreen: "#006400",
+        limegreen: "#32CD32",
       },
       screens: {
         sm: "640px",
