@@ -13,7 +13,7 @@ const PageLayout = ({ children }: { children: React.ReactNode }) => {
 
   return (
     <div className="flex">
-      <Sidebar isSidebarOpen={isSidebarOpen} />
+      <Sidebar isSidebarOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
       <div className={`flex-1 transition-all duration-300 `}>
         <Navbar toggleSidebar={toggleSidebar} />
         <main className="pt-16">{children}</main>
